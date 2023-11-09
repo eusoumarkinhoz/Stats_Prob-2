@@ -1,0 +1,55 @@
+{
+    "Auvergne-Rhône-Alpes": {
+      "population": "8,153,233",
+      "area": "69,711"
+    },
+    "Bourgogne-Franche-Comté": {
+      "population": "2,785,393",
+      "area": "47,784"
+    },
+    "Bretagne": {
+      "population": "3,402,932",
+      "area": "27,208"
+    },
+    "Centre-Val de Loire": {
+      "population": "2,564,915",
+      "area": "39,151"
+    },
+    "Corse": {
+      "population": "349,465",
+      "area": "8,680"
+    },
+    "Grand Est": {
+      "population": "5,542,094",
+      "area": "57,441"
+    },
+    "Hauts-de-France": {
+      "population": "5,987,172",
+      "area": "31,806"
+    },
+    "Île-de-France": {
+      "population": "12,395,148",
+      "area": "12,011"
+    },
+    "Normandie": {
+      "population": "3,307,286",
+      "area": "29,907"
+    },
+    "Nouvelle-Aquitaine": {
+      "population": "6,081,985",
+      "area": "84,036"
+    },
+    "Occitanie": {
+      "population": "6,053,548",
+      "area": "72,724"
+    },
+    "Pays de la Loire": {
+      "population": "3,873,096",
+      "area": "32,082"
+    },
+    "Provence-Alpes-Côte d'Azur": {
+      "population": "5,131,187",
+      "area": "31,400"
+    }
+  }
+  
