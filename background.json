@@ -1,0 +1,30 @@
+# Sum of years (Benjamin) 09-11-22
+
+(
+    regions_prod_non_renewable.drop(columns=['Thermique','Nucleaire'])
+                              .groupby([pd.Grouper(freq="Y"), 'Regions'])
+                              .sum()
+                              .unstack(level = 0)
+                              .sum(axis = 0)
+                              .astype(int)
+                              .plot(figsize=(20, 6))
+
+)
+
+
+
+# Rolling mean (Florian) 09-11-22
+
+renewables = ['Eolien', 'Solaire', 'Hydraulique', 'Bioénergies']
+(
+    df_regional.reset_index()
+               .groupby('index')
+               .sum()
+               .drop(columns='Périmètre')
+               .loc[:, renewables]
+               .sum(axis='columns')
+               .rolling('30D')
+               .mean()
+               .plot(figsize=(15, 3))
+               
+)
